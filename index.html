@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Boi Encanto da Natureza – Cultura, Tradição e Inclusão no Maranhão</title>
+
+    <!-- Favicon padrão (navegadores desktop) -->
+    <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- PNG para navegadores modernos -->
+    <link rel="icon" href="/favicon/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/favicon/favicon-16x16.png" type="image/png" sizes="16x16">
+
+    <!-- Apple Touch Icon (iOS e iPadOS) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+
+    <!-- Manifesto Web App (opcional se virar PWA futuramente) -->
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+    <!-- Safari Pinned Tab (macOS) -->
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#22c55e">
+
+    <!-- Meta para Microsoft Tiles (Windows) -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png">
+
+    <!-- Tema da barra de navegação (Android Chrome, Safari etc.) -->
+    <meta name="theme-color" content="#22c55e">
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Grupo folclórico do Maranhão que promove inclusão, cultura e tradição através da arte do Boi Encanto da Natureza.">
+    <meta name="keywords"
+        content="Boi, Encanto da Natureza, folclore, cultura maranhense, Carutapera, Maranhão, dança, tradição, inclusão, festas juninas">
+    <meta name="author" content="Boi Encanto da Natureza">
+
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:title" content="Boi Encanto da Natureza">
+    <meta property="og:description" content="Preservando a cultura maranhense com arte, inclusão e tradição.">
+    <meta property="og:image" content="https://seudominio.com/assets/images/sections/logo-encanto-da-natureza.webp">
+    <meta property="og:url" content="https://seudominio.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Boi Encanto da Natureza">
+    <meta name="twitter:description" content="Preservando a cultura maranhense com arte, inclusão e tradição.">
+    <meta name="twitter:image" content="https://seudominio.com/assets/images/sections/logo-encanto-da-natureza.webp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/assets/images/sections/logo-encanto-da-natureza.webp">
+
+    <!-- Preconnect ajuda, mas não evita o bloqueio -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Preconnect para carregar a imagem da logo -->
+    <link rel="preload" as="image" href="/assets/images/sections/logo-encanto-da-natureza.webp">
+
+    <!-- Solução para evitar render-blocking -->
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+    </noscript>
+
+    <link rel="stylesheet" href="css/custom.css">
+  <script type="module" crossorigin src="/assets/index-C9DKB79I.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CkIuhvhR.css">
+</head>
+
+<body
+    class="font-[Montserrat] bg-[url('/assets/images/patterns/section-pattern.webp')] bg-repeat bg-cover bg-center h-screen"
+    style="background-size: 200px;">
+
+    <a href="#principal" tabindex="0" class="skip-link text-green-600 ring-green-500 ring-2 rounded-md px-3 py-2">
+        Pular para o conteúdo
+    </a>
+
+    <header class="fixed top-0 left-0 w-full bg-white shadow-md z-2 z-50">
+        <div class="max-w-5xl xl:max-w-6xl 2xl:max-w-7xl px-4 md:px-0 mx-auto">
+            <div class="flex justify-between items-center h-16">
+                <a href="#principal" class="text-xl font-bold text-green-600">Encanto da Natureza</a>
+
+                <nav class="hidden md:flex space-x-6 flex items-center">
+                    <a href="#inicio" class="text-gray-700 hover:text-green-600">Início</a>
+                    <a href="#sobre" class="text-gray-700 hover:text-green-600">Sobre</a>
+                    <a href="#coracao" class="text-gray-700 hover:text-green-600">O Coração</a>
+                    <a href="#galeria" class="text-gray-700 hover:text-green-600">Galeria</a>
+                    <a href="#doe-e-ajude" class="text-gray-700 hover:text-green-600">Doe e Ajude</a>
+                    <a href="#contato"
+                        class=" rounded-full bg-gradient-to-b from-green-300 to-green-400 to-70% px-4 py-2 text-sm font-semibold text-green-950 shadow-md ring-1 inset-shadow-2xs ring-green-500 inset-shadow-white/20 text-shadow-2xs text-shadow-green-300 transition-all duration-300 ease-in-out hover:bg-gradient-to-b hover:from-green-400 hover:to-green-500 hover:scale-[0.98] active:scale-95">
+                        Entre em contato
+                    </a>
+                </nav>
+
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-gray-700 focus:outline-none"
+                        aria-label="Abrir menu de navegação">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
+            <a href="#inicio" class="block py-2 text-gray-700 hover:text-green-600">Início</a>
+            <a href="#sobre" class="block py-2 text-gray-700 hover:text-green-600">Sobre</a>
+            <a href="#coracao" class="block py-2 text-gray-700 hover:text-green-600">O Coração</a>
+            <a href="#galeria" class="block py-2 text-gray-700 hover:text-green-600">Galeria</a>
+            <a href="#doe-e-ajude" class="block py-2 text-gray-700 hover:text-green-600">Doe e Ajude</a>
+            <a href="#contato" class="block py-2 text-gray-700 hover:text-green-600">Contato</a>
+        </div>
+    </header>
+    <main id="principal" tabindex="-1">
+        <!-- Início -->
+        <section id="inicio" class="min-h-screen flex items-center justify-center px-4 py-16 bg-transparent">
+            <div class="flex flex-col md:flex-row items-center max-w-5xl xl:max-w-6xl 2xl:max-w-7xl w-full gap-12">
+                <div class="flex-1 text-center md:text-left">
+                    <div class="mt-5 text-gray-600 flex gap-1 justify-center md:justify-start w-full mt-10 md:mt-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                            aria-hidden="true" focusable="false" class="size-5 text-green-500">
+                            <path
+                                d="m9.653 16.915-.005-.003-.019-.01a20.759 20.759 0 0 1-1.162-.682 22.045 22.045 0 0 1-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 0 1 8-2.828A4.5 4.5 0 0 1 18 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 0 1-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 0 1-.69.001l-.002-.001Z" />
+                        </svg>
+
+                        <small> Nos arraiais do Maranhão desde 2005</small>
+                    </div>
+                    <h1
+                        class="text-transparent bg-clip-text bg-gradient-to-b from-gray-900 to-gray-700 to-80% text-4xl md:text-6xl font-black leading-tight">
+                        BOI ENCANTO <br class="hidden md:block"> DA NATUREZA
+                    </h1>
+                    <p class="mt-4 text-gray-600 max-w-md mx-auto md:mx-0 text-sm md:text-base">
+                        Através de nossa arte, reafirmamos a importância da inclusão e da diversidade, celebrando o
+                        folclore
+                        e suas ricas histórias. Venha nos conhecer e mergulhar na beleza da cultura popular.
+                    </p>
+                    <div class="mt-6 flex flex-col md:flex-row justify-center md:justify-start gap-4">
+                        <a href="#sobre"
+                            class="block rounded-full active:scale-95 bg-gradient-to-b from-green-300 to-green-400 to-70% px-4 py-2 text-sm font-semibold text-green-950 shadow-md ring-1 inset-shadow-2xs ring-green-500 inset-shadow-white/20 text-shadow-2xs text-shadow-green-300 transition-all duration-300 ease-in-out hover:bg-gradient-to-b hover:from-green-400 hover:to-green-500 hover:scale-98">
+                            Conheça o Projeto
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCczzGtUwZ-9tj_VqML8EhuQ"
+                            class="px-4 py-2 text-sm font-semibold text-gray-800 transition-all duration-300 hover:scale-[0.98] active:scale-95">
+                            Veja nossos vídeos
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="flex-1 flex justify-center">
+                    <img src="/assets/images/sections/logo-encanto-da-natureza.webp"
+                        alt="Logo do Boi Encanto da Natureza" class="max-w-full h-auto object-contain" />
+                </div>
+            </div>
+        </section>
+        <!-- KPI -->
+        <section class="-mt-20 lg:-mt-32 flex items-center justify-center px-4 py-16 bg-transparent">
+            <div
+                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full md:max-w-5xl xl:max-w-6xl 2xl:max-w-7xl">
+                <div class="bg-green-100 border-l-4 border-green-400 p-5 rounded-xl ring-1 ring-green-300 shadow-inner shadow-white/50 
+         hover:shadow-xl hover:-translate-y-2 hover:cursor-pointer transition-all duration-300 ease-in-out">
+                    <div class="text-4xl font-bold text-green-800">+5</div>
+                    <div class="text-lg text-green-700">Anos de História
+                    </div>
+                    <div class="text-sm text-green-600 mt-1">Preservando a tradição</div>
+                </div>
+
+                <div class="bg-green-100 border-l-4 border-green-400 p-5 rounded-xl ring-1 ring-green-300 shadow-inner shadow-white/50 
+         hover:shadow-xl hover:-translate-y-2 hover:cursor-pointer transition-all duration-300 ease-in-out">
+
+                    <div class="text-4xl font-bold text-green-800">+50</div>
+                    <div class="text-lg text-green-700">Apresentações</div>
+                    <div class="text-sm text-green-600 mt-1">Levando cultura aos arraiais maranhenses</div>
+                </div>
+
+                <div class="bg-green-100 border-l-4 border-green-400 p-5 rounded-xl ring-1 ring-green-300 shadow-inner shadow-white/50 
+            hover:shadow-xl hover:-translate-y-2 hover:cursor-pointer transition-all duration-300 ease-in-out">
+                    <div class="text-4xl font-bold text-green-800">+30</div>
+                    <div class="text-lg text-green-700">Integrantes</div>
+                    <div class="text-sm text-green-600 mt-1">Brincantes de todas as idades</div>
+                </div>
+
+                <div class="bg-green-100 border-l-4 border-green-400 p-5 rounded-xl ring-1 ring-green-300 shadow-inner shadow-white/50 
+            hover:shadow-xl hover:-translate-y-2 hover:cursor-pointer transition-all duration-300 ease-in-out">
+                    <div class="text-4xl font-bold text-green-800">100%</div>
+                    <div class="text-lg text-green-700">Paixão</div>
+                    <div class="text-sm text-green-600 mt-1">Pela cultura maranhense</div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Nossa História -->
+        <section id="sobre" class="min-h-screen flex items-center justify-center px-4 py-16 w-full bg-gray-50">
+            <div
+                class="flex-1 text-center md:text-left w-full flex flex-col gap-8 items-center max-w-5xl xl:max-w-6xl 2xl:max-w-7xl">
+                <h2 class="text-4xl md:text-5xl font-extrabold text-gray-700 leading-tight">
+                    NOSSA HISTÓRIA
+                </h2>
+                <h3 class="text-center">
+                    O Boi Encanto nasceu da paixão pela preservação das tradições folclóricas brasileiras, especialmente
+                    inspirado no rico folclore amazônico e nordestino.
+                </h3>
+                <p class="mt-4 text-gray-600 mx-auto md:mx-0 text-sm md:text-base">
+                    Fundado em 5 de abril de 2005 pela senhora Fátima Cruz, o projeto tem como objetivo promover a
+                    inclusão das minorias do povoado Livramento nas tradicionais brincadeiras juninas. Composto por
+                    brincantes de todas as idades, de crianças a adultos, busca fomentar a interação e a convivência
+                    entre os participantes e a comunidade, além de preservar a rica cultura indígena.
+                    <br></br>
+                    Nossa dança conta histórias ancestrais através de movimentos que celebram a vida, a natureza e nossa
+                    herança cultural.
+                    <br></br>
+                    Inspirados no estilo do Caprichoso do Pará, desenvolvemos uma identidade única que combina a
+                    autenticidade das tradições amazônicas com elementos contemporâneos, criando apresentações que
+                    emocionam
+                    e educam sobre nossa cultura.
+                </p>
+                <br></br>
+                <p class="w-full bg-green-100 border-l-4 border-green-400 p-5 rounded-xl ring-1 ring-green-300 shadow-inner shadow-white/50 
+            hover:shadow-xl hover:-translate-y-2 hover:cursor-pointer transition-all duration-300 ease-in-out">
+                    <em>"Cada movimento é uma oração, cada dança é uma celebração da vida e da nossa identidade
+                        brasileira."<br /></em>
+                    - Fátima Cruz
+                </p>
+            </div>
+
+            </div>
+        </section>
+
+        <!-- O Coração do Grupo -->
+        <section id="coracao" class="min-h-screen flex items-center justify-center px-4 py-16 bg-transparent">
+            <div class="flex flex-col items-center max-w-5xl xl:max-w-6xl 2xl:max-w-7xl w-full">
+                <h3 class="text-4xl md:text-5xl font-extrabold text-gray-700 leading-tight mb-8">
+                    O CORAÇÃO DO GRUPO
+                </h3>
+                <p class="text-center text-gray-600 max-w-2xl mb-12 text-sm md:text-base">
+                    Conheça as pessoas que fazem o Encanto da Natureza acontecer. Nossa diretoria e integrantes
+                    compartilham
+                    a paixão pela cultura e a missão de preservar nossas tradições.
+                </p>
+
+                <!-- Diretoria -->
+                <div class="w-full mb-16">
+                    <h3 class="text-2xl md:text-3xl font-bold text-green-800 mb-8 text-center">Nossa Diretoria</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- Presidente -->
+                        <div
+                            class="ring-gray-200 ring-1 bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                            <div
+                                class="w-24 h-24 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
+                                <svg class="w-12 h-12 text-green-600" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                </svg>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 mb-1">Fátima Cruz</h3>
+                            <p class="text-green-600 font-semibold mb-3">Fundadora</p>
+                            <p class="text-sm text-gray-600 italic">"Cada movimento é uma oração, cada dança é uma
+                                celebração da vida e da nossa identidade brasileira."</p>
+                        </div>
+
+                        <!-- Vice-Presidente -->
+                        <div
+                            class="ring-gray-200 ring-1 bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                            <div
+                                class="w-24 h-24 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
+                                <svg class="w-12 h-12 text-green-600" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                </svg>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 mb-1">Luciana Ferreira</h3>
+                            <p class="text-green-600 font-semibold mb-3">Presidente</p>
+                            <p class="text-sm text-gray-600 italic">"Aqui encontrei minha segunda família e a missão de
+                                preservar nossa cultura."</p>
+                        </div>
+
+                        <!-- Coordenador Cultural -->
+                        <div
+                            class="ring-gray-200 ring-1 bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                            <div
+                                class="w-24 h-24 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
+                                <svg class="w-12 h-12 text-green-600" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                </svg>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 mb-1">Eliana Ferreira</h3>
+                            <p class="text-green-600 font-semibold mb-3">Artista Plástica e Vice-Presidente</p>
+                            <p class="text-sm text-gray-600 italic">"A cultura nos une e nos faz mais fortes como
+                                comunidade."</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Depoimentos dos Integrantes -->
+                <div class="w-full">
+                    <h3 class="text-2xl md:text-3xl font-bold text-green-800 mb-8 text-center">Vozes do Encanto</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div class="w-full bg-green-100 border-l-4 border-green-400 p-5 rounded-md ring-1 ring-green-300 shadow-inner shadow-white/50 
+                    hover:shadow-xl hover:-translate-y-2 hover:cursor-pointer transition-all duration-300 ease-in-out">
+                            <p class="text-sm text-gray-700 italic">"Cada ensaio é uma festa, cada apresentação é uma
+                                emoção
+                                única!"</p>
+                            <p class="text-xs text-green-600 mt-2 font-semibold">- Karla Cristina, 20 anos</p>
+                        </div>
+
+                        <div class="w-full bg-green-100 border-l-4 border-green-400 p-5 rounded-md ring-1 ring-green-300 shadow-inner shadow-white/50 
+            hover:shadow-xl hover:-translate-y-2 hover:cursor-pointer transition-all duration-300 ease-in-out">
+                            <p class="text-sm text-gray-700 italic">"Aqui aprendi que a cultura é viva e pulsante em
+                                cada
+                                um
+                                de nós."</p>
+                            <p class="text-xs text-green-600 mt-2 font-semibold">- Ádria, 16 anos</p>
+                        </div>
+
+                        <div class="w-full bg-green-100 border-l-4 border-green-400 p-5 rounded-md ring-1 ring-green-300 shadow-inner shadow-white/50 
+            hover:shadow-xl hover:-translate-y-2 hover:cursor-pointer transition-all duration-300 ease-in-out">
+                            <p class="text-sm text-gray-700 italic">"O Boi Encanto da Natureza me mostrou o verdadeiro
+                                significado
+                                de
+                                comunidade."</p>
+                            <p class="text-xs text-green-600 mt-2 font-semibold">- Daniel, 20 anos</p>
+                        </div>
+
+                        <div class="w-full bg-green-100 border-l-4 border-green-400 p-5 rounded-md ring-1 ring-green-300 shadow-inner shadow-white/50 
+            hover:shadow-xl hover:-translate-y-2 hover:cursor-pointer transition-all duration-300 ease-in-out">
+                            <p class="text-sm text-gray-700 italic">"Nossas tradições são tesouros que precisamos
+                                preservar
+                                com amor."</p>
+                            <p class="text-xs text-green-600 mt-2 font-semibold">- Christiny, 15 anos</p>
+                        </div>
+
+                        <div class="w-full bg-green-100 border-l-4 border-green-400 p-5 rounded-md ring-1 ring-green-300 shadow-inner shadow-white/50 
+            hover:shadow-xl hover:-translate-y-2 hover:cursor-pointer transition-all duration-300 ease-in-out">
+                            <p class="text-sm text-gray-700 italic">"A dança me conecta com minhas raízes e minha
+                                história."
+                            </p>
+                            <p class="text-xs text-green-600 mt-2 font-semibold">- Mariana, 19 anos</p>
+                        </div>
+
+                        <div class="w-full bg-green-100 border-l-4 border-green-400 p-5 rounded-md ring-1 ring-green-300 shadow-inner shadow-white/50 
+            hover:shadow-xl hover:-translate-y-2 hover:cursor-pointer transition-all duration-300 ease-in-out">
+                            <p class="text-sm text-gray-700 italic">"Somos uma família unida pela paixão pela cultura
+                                maranhense."</p>
+                            <p class="text-xs text-green-600 mt-2 font-semibold">- Luan, 21 anos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Patrocinadores -->
+        <section id="patrocinadores" class="py-10 bg-gray-50 p-4 md:px-0">
+            <div class="max-w-5xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
+                <div class="text-center mb-8">
+                    <h2 class="text-2xl md:text-3xl font-bold text-green-800 mb-2">Nossos Apoiadores</h2>
+                    <p class="text-gray-600">Empresas e instituições que acreditam na nossa missão cultural</p>
+                </div>
+
+                <!-- Marquee Container -->
+                <div class="marquee-container relative h-full w-full overflow-hidden bg-gray-50">
+                    <div class="flex animate-marquee whitespace-nowrap">
+                        <!-- Primeira sequência -->
+                        <div class="flex items-center space-x-12 px-6">
+                            <span class="text-lg font-semibold text-gray-700">Prefeitura Municipal de Carutapera</span>
+                            <span class="text-lg font-semibold text-gray-700">R&D Mineração e Construção</span>
+                            <span class="text-lg font-semibold text-gray-700">Secretaria de Cultura do MA</span>
+                            <span class="text-lg font-semibold text-gray-700">EquinoxGold Corp.</span>
+                            <span class="text-lg font-semibold text-gray-700">Cooperativa de Produtores</span>
+                            <span class="text-lg font-semibold text-gray-700">Comunidade do Livramento</span>
+                        </div>
+                        <!-- Segunda sequência (duplicada para loop perfeito) -->
+                        <div class="flex items-center space-x-12 px-6">
+                            <span class="text-lg font-semibold text-gray-700">Prefeitura Municipal de Carutapera</span>
+                            <span class="text-lg font-semibold text-gray-700">R&D Mineração e Construção</span>
+                            <span class="text-lg font-semibold text-gray-700">Secretaria de Cultura do MA</span>
+                            <span class="text-lg font-semibold text-gray-700">EquinoxGold Corp.</span>
+                            <span class="text-lg font-semibold text-gray-700">Cooperativa de Produtores</span>
+                            <span class="text-lg font-semibold text-gray-700">Comunidade do Livramento</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Galeria -->
+        <section id="galeria" class="w-full px-4 py-16 flex justify-center bg-transparent">
+            <div class="flex flex-col flex-grow max-w-5xl xl:max-w-6xl 2xl:max-w-7xl py-0">
+                <h2 class="text-5xl font-extrabold mb-6 text-slate-700 ">GALERIA</h2>
+
+                <div class="flex w-full flex-col overflow
+                 md:grid md:grid-cols-6 md:grid-rows-4 md:h-[700px] md:space-y-0 aspect-square">
+                    <div class="h-full w-full overflow-hidden p-1 rounded md:col-start-1 md:row-start-1">
+                        <img src="/assets/images/gallery/gallery-normal1.webp"
+                            alt="Apresentação do grupo com a porta estandarte em foco" loading="lazy"
+                            class="w-full h-full rounded object-cover break-inside-avoid bg-slate-500 hover:scale-[0.98] hover:ring-2 hover:ring-green-500 hover:rounded-sm transition-all duration-300 ease-in-out hover:cursor-pointer" />
+                    </div>
+
+                    <div class="h-full w-full overflow-hidden p-1 rounded md:col-start-2 md:row-start-1">
+                        <img src="/assets/images/gallery/gallery-normal2.webp" alt="Integrantes dançando à noite"
+                            loading="lazy"
+                            class="w-full h-full rounded object-cover break-inside-avoid bg-slate-500 hover:scale-[0.98] hover:ring-2 hover:ring-green-500 hover:rounded-sm transition-all duration-300 ease-in-out hover:cursor-pointer" />
+                    </div>
+
+                    <div class=" h-full w-full overflow-hidden p-1 rounded md:col-start-1 md:col-span-2 md:row-start-2">
+                        <img src="/assets/images/gallery/gallery-wide2.webp"
+                            alt="Grupo após uma apresentação com todos juntos" loading="lazy"
+                            class="w-full h-full rounded object-cover break-inside-avoid bg-slate-500 hover:scale-[0.98] hover:ring-2 hover:ring-green-500 hover:rounded-sm transition-all duration-300 ease-in-out hover:cursor-pointer" />
+                    </div>
+
+                    <div class=" h-full w-full overflow-hidden p-1 rounded md:col-start-5 md:col-span-2 md:row-start-1">
+                        <img src="/assets/images/gallery/gallery-wide1.webp"
+                            alt="Integrantes após ensaio na quadra de esportes" loading="lazy"
+                            class="w-full h-full rounded object-cover break-inside-avoid bg-slate-500 hover:scale-[0.98] hover:ring-2 hover:ring-green-500 hover:rounded-sm transition-all duration-300 ease-in-out hover:cursor-pointer" />
+                    </div>
+
+                    <div class=" h-full w-full overflow-hidden p-1 rounded md:col-start-4 md:row-start-2 md:row-span-2">
+                        <img src="/assets/images/gallery/gallery-tall1.webp"
+                            alt="Porta estandarte antes da apresentação" loading="lazy"
+                            class="w-full h-full rounded object-cover break-inside-avoid bg-slate-500 hover:scale-[0.98] hover:ring-2 hover:ring-green-500 hover:rounded-sm transition-all duration-300 ease-in-out hover:cursor-pointer" />
+                    </div>
+
+                    <div class=" h-full w-full overflow-hidden p-1 rounded md:col-start-1 md:row-start-3 md:row-span-2">
+                        <img src="/assets/images/gallery/gallery-tall2.webp" alt="Porta estandarte após apresentação"
+                            loading="lazy"
+                            class="w-full h-full rounded object-cover break-inside-avoid bg-slate-500 hover:scale-[0.98] hover:ring-2 hover:ring-green-500 hover:rounded-sm transition-all duration-300 ease-in-out hover:cursor-pointer" />
+                    </div>
+
+                    <div
+                        class="rounded md:col-start-2 overflow-hidden p-1 md:col-span-2 md:row-start-3 md:row-span-3">
+                        <img src="/assets/images/gallery/gallery-square1.webp"
+                            alt="Rainha do folclore durante apresentação" loading="lazy"
+                            class="w-full h-full rounded object-cover break-inside-avoid bg-slate-500 hover:scale-[0.98] hover:ring-2 hover:ring-green-500 hover:rounded-sm transition-all duration-300 ease-in-out hover:cursor-pointer" />
+                    </div>
+
+                    <div
+                        class=" h-full w-full overflow-hidden p-1 rounded md:col-start-5 md:col-span-2 md:row-start-2 md:row-span-2">
+                        <img src="/assets/images/gallery/gallery-square2.webp"
+                            alt="Vaqueira interagindo com o boi durante a apresentação" loading="lazy"
+                            class="w-full h-full rounded object-cover break-inside-avoid bg-slate-500 hover:scale-[0.98] hover:ring-2 hover:ring-green-500 hover:rounded-sm transition-all duration-300 ease-in-out hover:cursor-pointer" />
+                    </div>
+
+                    <div
+                        class=" h-full w-full overflow-hidden p-1 rounded md:col-start-4 md:col-span-2 md:row-start-4 md:row-span-2">
+                        <img src="/assets/images/gallery/gallery-wide3.webp" alt="Imagem após dança em quadra municipal"
+                            loading="lazy"
+                            class="w-full h-full rounded object-cover break-inside-avoid bg-slate-500 hover:scale-[0.98] hover:ring-2 hover:ring-green-500 hover:rounded-sm transition-all duration-300 ease-in-out hover:cursor-pointer" />
+                    </div>
+
+                    <div class=" h-full w-full overflow-hidden p-1 rounded md:col-start-6 md:row-start-4">
+                        <img src="/assets/images/gallery/gallery-normal3.webp"
+                            alt="Imagem do indio guerreiro durante apresentação" loading="lazy"
+                            class="w-full h-full rounded object-cover break-inside-avoid bg-slate-500 hover:scale-[0.98] hover:ring-2 hover:ring-green-500 hover:rounded-sm transition-all duration-300 ease-in-out hover:cursor-pointer" />
+                    </div>
+
+                    <div class=" h-full w-full overflow-hidden p-1 rounded md:col-start-3 md:row-start-1 md:row-span-2">
+                        <img src="/assets/images/gallery/gallery-tall3.webp" alt="Foto do estandarte" loading="lazy"
+                            class="w-full h-full rounded object-cover break-inside-avoid bg-slate-500 hover:scale-[0.98] hover:ring-2 hover:ring-green-500 hover:rounded-sm transition-all duration-300 ease-in-out hover:cursor-pointer" />
+                    </div>
+
+                    <div class=" h-full w-full overflow-hidden p-1 rounded md:col-start-4 md:row-start-1">
+                        <img src="/assets/images/gallery/gallery-normal4.webp"
+                            alt="Imagem da Sinhazinha durante apresentação" loading="lazy"
+                            class="w-full h-full rounded object-cover break-inside-avoid bg-slate-500 hover:scale-[0.98] hover:ring-2 hover:ring-green-500 hover:rounded-sm transition-all duration-300 ease-in-out hover:cursor-pointer" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Doe e Ajude -->
+        <section id=" doe-e-ajude" class="min-h-screen flex items-center justify-center px-4 py-16 bg-gray-50">
+            <div
+                class="h-full flex flex-col md:flex-row items-center max-w-5xl xl:max-w-6xl 2xl:max-w-7xl w-full gap-12">
+
+                <!-- Texto -->
+                <div class="flex-1 text-center md:text-left">
+                    <h2 class="text-gray-700  text-4xl md:text-5xl font-extrabold">
+                        DOE e AJUDE
+                    </h2>
+                    <p class="mt-4 text-gray-600 max-w-md mx-auto md:mx-0 text-sm md:text-base">
+                        Sua contribuição ajuda a manter viva a nossa cultura. Doe via Pix, cartão ou
+                        transferência e faça parte da nossa história.
+                    </p>
+
+                    <!-- Botão de doação -->
+                    <div class="mt-6">
+                        <a href="https://pagamento.picpay" target="_blank" rel="noopener noreferrer"
+                            class="inline-flex rounded-full active:scale-95 bg-gradient-to-b from-green-300 to-green-400 to-70% px-4 py-2 text-sm font-semibold text-green-950 shadow-md ring-1 inset-shadow-2xs ring-green-500 inset-shadow-white/20 text-shadow-2xs text-shadow-green-300 transition-all duration-300 ease-in-out hover:bg-gradient-to-b hover:from-green-400 hover:to-green-500 hover:scale-98">
+                            Fazer uma Doação Agora
+                        </a>
+                    </div>
+
+                    <!-- Opções de pagamento -->
+                    <div class="mt-6 space-y-3 text-sm text-gray-700">
+                        <p><strong>Pix:</strong> boiencantodanaturezagh@gmail.com</p>
+                        <p><strong>Banco:</strong> NUBANK - Ag: 0001 - Conta: 52779307-0</p>
+                    </div>
+
+                    <!-- Provas sociais -->
+                    <div
+                        class="w-full bg-green-100 border-l-4 border-green-400 p-2 rounded-md ring-1 ring-green-300 shadow-inner mt-4 shadow-white/50 
+                    hover:shadow-xl hover:-translate-y-1 hover:cursor-pointer transition-all duration-300 ease-in-out italic text-sm">
+                        “Doei com alegria! Cultura é identidade e merece nosso apoio.”<br />
+                        <strong>– Dulcirene Ferreira, apoiadora</strong>
+                    </div>
+                </div>
+
+                <!-- QR Code -->
+                <div class="flex-1 flex justify-end">
+                    <div class="bg-white p-4 rounded-lg shadow-lg border-2 border-green-200 flex flex-col items-center">
+                        <img src="/assets/images/sections/qrcode.png" loading="lazy" alt="QR Code para doação"
+                            class="max-w-[380px] w-full h-auto object-contain" />
+                        <p class="text-center mt-2 text-sm text-gray-500">Use o app do seu banco para
+                            escanear
+                            o QR e doar via Pix</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Entre em Contato -->
+        <section id="contato"
+            class="min-h-screen px-4 md:px-0 flex items-center justify-center w-full bg-transparent py-16">
+            <div
+                class="h-full flex-1 text-left w-full flex flex-col gap-4 items-center max-w-5xl xl:max-w-6xl 2xl:max-w-7xl">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-700 leading-tight">
+                    Entre em Contato
+                </h2>
+                <h3 class="text-center">
+                    Interessado em nossas apresentações? Quer fazer parte do grupo? Entre em contato conosco!
+                </h3>
+
+                <div class="flex flex-col md:mt-10 md:flex-row gap-5 justify-center items-center">
+                    <div class="w-full bg-white p-5 shadow-lg rounded-md ring-gray-200 ring-1">
+                        <h2
+                            class="text-center md:text-left text-gray-600 mb-4 font-bold text-xl md:text-2xl leading-tight">
+                            Envie sua mensagem</h2>
+                        <form id="formulario-mensagem" class="space-y-3">
+                            <div class="flex flex-col md:flex-row gap-3">
+                                <div class="flex-grow block">
+                                    <label for="nome" class="block text-sm font-medium text-gray-700">Nome
+                                        Completo*</label>
+                                    <input type="text" placeholder="Ex.: José Paulo" id="nome" name="nome" required
+                                        class="rounded-sm text-gray-700 mt-1 w-full outline-none bg-white px-3 py-2 text-sm font-semibold [&:not(:placeholder-shown):invalid]:ring-red-500 text-gray-800 shadow-sm ring-1 inset-shadow-2xs ring-gray-300 inset-shadow-white/20 text-shadow-2xs text-shadow-gray-200 focus:ring-green-500 focus:ring-1" />
+
+                                </div>
+
+                                <div class="flex-grow">
+                                    <label for="telefone"
+                                        class="block text-sm font-medium text-gray-700">Telefone</label>
+                                    <input type="tel" placeholder="Ex.: (98) 98764-4321" id="telefone" name="telefone"
+                                        class="rounded-sm text-gray-700 mt-1 w-full outline-none bg-white px-3 py-2 text-sm font-semibold [&:not(:placeholder-shown):invalid]:ring-red-500 text-gray-800 shadow-sm ring-1 inset-shadow-2xs ring-gray-300 inset-shadow-white/20 text-shadow-2xs text-shadow-gray-200 focus:ring-green-500 focus:ring-1" />
+
+                                </div>
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700">Email*</label>
+                                <input name="email" id="email" required pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$"
+                                    name="email" placeholder="Ex.: email@exemplo.com" class="rounded-sm text-gray-700 w-full mt-1 outline-none bg-white px-3 py-2 text-sm font-semibold
+         [&:not(:placeholder-shown):invalid]:ring-red-500 text-gray-800 shadow-sm
+         ring-1 inset-shadow-2xs ring-gray-300 inset-shadow-white/20 text-shadow-2xs
+         text-shadow-gray-200 focus:ring-green-500 focus:ring-1" />
+                            </div>
+                            <div>
+                                <label for="assunto" class="block text-sm font-medium text-gray-700">Assunto*</label>
+                                <input type="text" placeholder="Ex.: Como agendar uma dança?" id="assunto" required
+                                    name="assunto"
+                                    class="rounded-sm text-gray-700 w-full mt-1 outline-none bg-white px-3 py-2 text-sm font-semibold [&:not(:placeholder-shown):invalid]:ring-red-500 text-gray-800 shadow-sm ring-1 inset-shadow-2xs ring-gray-300 inset-shadow-white/20 text-shadow-2xs text-shadow-gray-200 focus:ring-green-500 focus:ring-1" />
+
+                            </div>
+                            <div>
+                                <label for="mensagem" class="block text-sm font-medium text-gray-700">Mensagem*</label>
+                                <textarea type="text" required name="mensagem"
+                                    placeholder="Ex.: Gostei muito da apresentação, como posso chama-la para meu arraiá?"
+                                    rows="6" id="mensagem"
+                                    class="rounded-sm text-gray-700 flex w-full mt-1 outline-none bg-white px-3 py-2 text-sm font-semibold [&:not(:placeholder-shown):invalid]:ring-red-500 text-gray-800 shadow-sm ring-1 inset-shadow-2xs ring-gray-300 inset-shadow-white/20 text-shadow-2xs text-shadow-gray-200 focus:ring-green-500 focus:ring-1"></textarea>
+                            </div>
+
+                            <div>
+                                <button id="enviar-formulario" type="submit"
+                                    class="w-full transition duration-300 hover:scale-99 active:scale-97
+                                    block rounded-sm bg-gradient-to-b from-green-300 to-green-400
+                                    px-4 py-2 text-sm font-semibold text-green-950 shadow-md
+                                    ring-1 inset-shadow-2xs ring-green-500 inset-shadow-white/20
+                                    text-shadow-2xs text-shadow-green-300
+
+                                    hover:cursor-pointer
+                                    hover:from-green-400 hover:to-green-500
+
+                                    disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 disabled:active:scale-100">
+                                    Enviar Mensagem
+                                </button>
+
+                            </div>
+
+                            <small class="text-xs text-gray-400">*Seus dados serão usados exclusivamente para responder
+                                ao
+                                seu contato. Não compartilhamos suas informações com terceiros.</small>
+                        </form>
+                    </div>
+                    <div class="flex flex-col gap-3 flex-grow h-full">
+                        <h3 class="text-2xl text-center md:text-left md:text-2xl font-bold text-gray-600 leading-tight">
+                            Informações de Contato
+                        </h3>
+                        <p>Estamos sempre prontos para conversar sobre apresentações, workshops, ou para receber novos
+                            integrantes em nosso grupo. Entre em contato!</p>
+                        <div class="flex flex-col gap-2">
+                            <div class="flex gap-3 rounded-sm p-4 bg-white shadow-sm ring-gray-200 ring-1">
+                                <div class="inline-flex items-center justify-center rounded-full text-green-600">
+                                    <div
+                                        class="inline-flex items-center justify-center p-1 rounded-sm bg-gradient-to-b from-green-300 to-green-400 to-70% shadow-md ring-1 ring-green-500 ring-inset shadow-inner shadow-white/20 text-shadow-sm text-shadow-green-300 dark:ring-green-500/50">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            aria-hidden="true" focusable="false" stroke-width="1.5" stroke="#14532d"
+                                            class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-col gap-0">
+                                    <span class="font-bold text-sm text-gray-800">Telefone:</span>
+                                    <small class="text-gray-600 -mt-1">(98) 9 9999-9999</small>
+                                </div>
+                            </div>
+                            <div class="flex gap-3 rounded-sm p-4 bg-white shadow-sm ring-gray-200 ring-1">
+                                <div class="inline-flex items-center justify-center rounded-full text-green-600">
+                                    <div
+                                        class="inline-flex items-center justify-center p-1 rounded-sm bg-gradient-to-b from-green-300 to-green-400 to-70% shadow-md ring-1 ring-green-500 ring-inset shadow-inner shadow-white/20 text-shadow-sm text-shadow-green-300 dark:ring-green-500/50">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            aria-hidden="true" focusable="false" stroke-width="1.5" stroke="#14532d"
+                                            class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                                        </svg>
+
+                                    </div>
+
+                                </div>
+                                <div class="flex flex-col">
+                                    <span class="font-bold text-sm text-gray-800">Email:</span>
+                                    <small class="text-gray-600 -mt-1">boiencantodanatureza@gmail.com</small>
+                                </div>
+                            </div>
+                            <div class="flex gap-3 rounded-sm p-4 bg-white shadow-sm ring-gray-200 ring-1">
+                                <div class="inline-flex items-center justify-center rounded-full text-green-600">
+                                    <div
+                                        class="inline-flex items-center justify-center p-1 rounded-sm bg-gradient-to-b from-green-300 to-green-400 to-70% shadow-md ring-1 ring-green-500 ring-inset shadow-inner shadow-white/20 text-shadow-sm text-shadow-green-300 dark:ring-green-500/50">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            aria-hidden="true" focusable="false" stroke-width="1.5" stroke="#14532d"
+                                            class="size-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                        </svg>
+
+                                    </div>
+
+                                </div>
+                                <div class="flex flex-col">
+                                    <span class="font-bold text-sm text-gray-800">Localização:</span>
+                                    <small class="text-gray-600 -mt-1">Livramento, Carutapera - MA</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-700 mb-3">Siga-nos nas Redes Sociais</h3>
+                            <div class="flex gap-3">
+                                <a href="https://www.instagram.com/encanto_da_naturezaofc/"
+                                    aria-label="Instagram do Boi Encanto da Natureza" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="hover:from-green-300 transition duration-300 hover:ring-green-600 hover:to-green-500 inline-flex items-center justify-center p-1 rounded-sm bg-gradient-to-b from-green-300 to-green-400 to-70% shadow-md ring-1 ring-green-500 ring-inset shadow-inner shadow-white/20 text-shadow-sm text-shadow-green-300 dark:ring-green-500/50">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="#14532d" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-instagram h-6 w-6">
+                                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                                    </svg>
+                                </a>
+
+
+                                <a href="https://www.youtube.com/channel/UCczzGtUwZ-9tj_VqML8EhuQ"
+                                    aria-label="Canal do Boi Encanto da Natureza no YouTube" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="hover:from-green-300 transition duration-300 hover:ring-green-600 hover:to-green-500 inline-flex items-center justify-center p-1 rounded-sm bg-gradient-to-b from-green-300 to-green-400 to-70% shadow-md ring-1 ring-green-500 ring-inset shadow-inner shadow-white/20 text-shadow-sm text-shadow-green-300 dark:ring-green-500/50">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="#14532d" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-youtube h-6 w-6">
+                                        <path
+                                            d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17">
+                                        </path>
+                                        <path d="m10 15 5-3-5-3z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-gray-100 border-green-200 p-4 md:p-0 text-sm text-gray-700">
+        <div class="max-w-5xl mx-auto md:py-5 grid grid-cols-1 md:grid-cols-4 gap-6">
+
+            <div class="col-span-1">
+                <h4 class="text-lg font-bold text-green-800">Encanto da Natureza</h4>
+                <p class="mt-2 text-gray-600 text-sm leading-relaxed">
+                    Mantendo viva a tradição folclórica maranhense com arte, inclusão e orgulho cultural.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-green-700 font-semibold mb-2">Navegação</h3>
+                <ul class="space-y-1">
+                    <li><a href="#inicio" class="hover:underline hover:text-green-600">Início</a></li>
+                    <li><a href="#sobre" class="hover:underline hover:text-green-600">Sobre</a></li>
+                    <li><a href="#coracao" class="hover:underline hover:text-green-600">O Coração</a></li>
+                    <li><a href="#galeria" class="hover:underline hover:text-green-600">Galeria</a></li>
+                    <li><a href="#doe-e-ajude" class="hover:underline hover:text-green-600">Doe e Ajude</a></li>
+                    <li><a href="#contato" class="hover:underline hover:text-green-600">Contato</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-green-700 font-semibold mb-2">Contato</h3>
+                <ul class="space-y-1">
+                    <li>(98) 9 9999-9999</li>
+                    <li>boiencantodanatureza@gmail.com</li>
+                    <li>Livramento, Carutapera - MA</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-green-700 font-semibold mb-2">Redes Sociais</h3>
+                <div class="flex gap-1 mt-1">
+                    <a href="https://www.instagram.com/encanto_da_naturezaofc/" class="hover:text-green-700"
+                        aria-label="Instagram do Boi Encanto da Natureza" target="_blank" rel="noopener noreferrer">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCczzGtUwZ-9tj_VqML8EhuQ" class="hover:text-green-700"
+                        aria-label="Canal do Boi Encanto da Natureza no YouTube" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4
+                    49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10
+                    2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+                            <path d="m10 15 5-3-5-3z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-100 text-center py-4 text-xs text-gray-700">
+            © 2025 Boi Encanto da Natureza. Todos os direitos reservados.
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+    <div id="toast-container" role="status" aria-live="polite"
+        class="fixed text-center top-4 left-[50%] translate-x-[-50%] origin-center z-50 space-y-2"></div>
+</body>
+
+</html>
